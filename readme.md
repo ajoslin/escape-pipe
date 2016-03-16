@@ -13,7 +13,7 @@ $ npm install --save or-pipe
 ```js
 var orPipe = require('or-pipe')
 
-var run = orPipe(blank, double, tripe)
+var run = orPipe(blank, double, triple)
 
 run(2) // => 4
 
@@ -27,6 +27,18 @@ function triple (n) {
   return n * 3
 }
 ```
+
+## API
+
+#### var run = orPipe(functions...)
+
+###### functions
+
+Pass in a list of a functions as arguments. Returns a `run` function.
+
+When calling the `run` function, its arguments will be passed into each function in the list given until one returns a value (`result !== null && result !== undefined`)`.
+
+The first non-null/undefined result will be returned.
 
 ## License
 
