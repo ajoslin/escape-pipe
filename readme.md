@@ -14,15 +14,12 @@ $ npm install --save or-pipe
 var orPipe = require('or-pipe')
 
 var run = orPipe(blank, double, triple)
-
 run(2) // => 4
 
 function blank () {}
-
 function double (n) {
   return n * 2
 }
-
 function triple (n) {
   return n * 3
 }
