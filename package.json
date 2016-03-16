@@ -1,0 +1,29 @@
+{
+  "name": "or-pipe",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Run a sequence of functions until one returns a value",
+  "license": "MIT",
+  "repository": "ajoslin/or-pipe",
+  "author": {
+    "name": "Andrew Joslin",
+    "email": "andrewtjoslin@gmail.com",
+    "url": "ajoslin.com"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "pipe return sequence abort or"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^5.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "to-array": "^0.1.4"
+  }
+}
