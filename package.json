@@ -1,7 +1,7 @@
 {
   "name": "or-pipe",
   "main": "index.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Run a sequence of functions until one returns a value",
   "license": "MIT",
   "repository": "ajoslin/or-pipe",
