@@ -33,7 +33,7 @@ function triple (n) {
 
 Pass in a list of a functions as arguments. Returns a `run` function.
 
-When calling the `run` function, its arguments will be passed into each function in the list given until one returns a value (`result !== null && result !== undefined`)`.
+When calling the `run` function, its arguments will be passed into each function in the list given until one returns a value (`result != null`).
 
 The first non-null/undefined result will be returned.
 
