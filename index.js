@@ -9,7 +9,7 @@ module.exports = function orPipe () {
     var result
     for (var i = 0; i < fns.length; i++) {
       result = fns[i].apply(null, arguments)
-      if (result !== null && result !== undefined) break
+      if (result != null) break
     }
     return result
   }
